@@ -21,6 +21,7 @@ namespace TaskOneTCPClient
         {
             get
             {
+                ///comment
                 if (instance == null)
                 {
                     instance = new AsyncTcpClient();
